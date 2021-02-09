@@ -1,0 +1,25 @@
+.programming {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: 0px 10px;
+}
+
+.programming h1 {
+    color: #3F3F3F;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.programming h2 {
+    color: #707070; 
+    font-size: 1.5em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}

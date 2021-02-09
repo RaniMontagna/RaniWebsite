@@ -1,0 +1,7 @@
+.svg > img {
+    width: 100%;
+}
+
+.svg {
+    display: flex;
+}

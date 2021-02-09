@@ -1,0 +1,14 @@
+.about .content {
+    background-color: #202020;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}   
+
+.about .content p {
+    width: 80%;
+    text-align: justify;
+}   

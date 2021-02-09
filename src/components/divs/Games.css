@@ -1,0 +1,46 @@
+.games .content {
+    background-color: #202020;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+
+.games .content p {
+    width: 80%;
+    text-align: justify;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    margin: 0 10px;
+}
+
+.title h2 {
+    font-size: 1em  ;
+    margin-top: 15px;
+}
+
+.content h3 {
+    color: #707070; 
+    font-size: 1.5em;
+}
+
+.carousel {
+    width: 50%;
+}
+
+@media(max-width: 800px){
+    .carousel{
+        width: 90%;
+    }
+   }
