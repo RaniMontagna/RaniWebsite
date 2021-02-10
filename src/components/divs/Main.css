@@ -3,28 +3,19 @@
     font-family: Lato, sans-serif;
     padding-bottom: 30px;
     padding-top: 20px;
-}
-
-.main h1 {
-    color: #3F3F3F;
     font-size: 2em;
-    margin-top: 20px;
+    color: #3F3F3F;
 }
 
-.main h2 {
-    color: #707070; 
-    font-size: 1.5em;
-    margin-top: -10px;
+.main img{
+    margin-bottom: 20px;
 }
 
 @media(max-width: 800px){
     .main img {
         width: 70%
     }
-    .main h1 {
+    .main {
         font-size: 1.5em;
-    }
-    .main h2 {
-        font-size: 0.9em;
     }
    }
