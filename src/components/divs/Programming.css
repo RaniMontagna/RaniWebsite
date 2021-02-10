@@ -5,6 +5,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    font-family: 'Lato';
 }
 
 .card {
@@ -12,6 +13,7 @@
 }
 
 .programming h1 {
+    font-weight: 700;
     color: #3F3F3F;
     font-size: 2em;
     margin-top: 20px;
@@ -22,4 +24,8 @@
     font-size: 1.5em;
     margin-top: -10px;
     margin-bottom: 20px;
+}
+
+.programming {
+    text-align: justify;
 }

@@ -4,24 +4,46 @@
     height: 200px;
     background-color: #202020;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
     color: white;
+    font-family: 'Lato';
 }
 
 .header .content h1 {
-    font-size: 2.7em;
+    font-size: 3em;
     font-weight: 900;
     word-spacing: 10px;
     letter-spacing: 2px;
+    margin-top: 10px;
 }
 
 .header .content .nav {
     display: flex;
     list-style: none;
     font-size: 1.2em;
+    margin-top: 10px;
 }
 
 .header .content .nav li {
     margin: 0 10px;
+}
+
+@media(max-width: 600px) {
+    .header .content h1 {
+        font-size: 2em;
+    }
+}
+
+.header a {
+    margin: 0px 5px;
+    color: white;
+}
+
+.header a:hover {
+    color: #707070; 
+}
+
+.header a:link {
+    text-decoration:none; 
 }

@@ -9,8 +9,10 @@ function Header() {
       <div className="content">
         <h1> Ranielli Montagna </h1>
         <nav className="nav">
-          <li>Sobre</li>
+          <li><a href="#about">Sobre</a></li>
           <li>Contato</li>
+          <li><a href="#programming">Programação</a></li>
+          <li><a href="#games">Jogos</a></li>
         </nav>
       </div>
       <SvgDivLayoutBottom />

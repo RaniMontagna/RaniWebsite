@@ -16,3 +16,15 @@
     font-size: 1.5em;
     margin-top: -10px;
 }
+
+@media(max-width: 800px){
+    .main img {
+        width: 70%
+    }
+    .main h1 {
+        font-size: 1.5em;
+    }
+    .main h2 {
+        font-size: 0.9em;
+    }
+   }

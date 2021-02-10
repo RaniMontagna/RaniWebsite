@@ -5,7 +5,7 @@ import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
 
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="content">
         <p>
           Me chamo <strong>Ranielli Montagna</strong>, mais conhecido por Rani, tenho 19 anos e

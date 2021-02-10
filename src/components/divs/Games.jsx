@@ -7,7 +7,7 @@ import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
 
 function Games() {
   return (
-    <div className="games">
+    <div id="games" className="games">
       <div className="content">
         <div className="title">
           <h1>Jogos</h1>
