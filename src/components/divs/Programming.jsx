@@ -5,11 +5,11 @@ import "./Programming.css";
 function Programming() {
   return (
     <div id="programming" className="programming">
-      <h1>Programação</h1>
-      <h2>Minhas Linguagens Preferidas:</h2>
+      <h1 data-aos="fade-right">Programação</h1>
+      <h2 data-aos="fade-left">Minhas Linguagens Preferidas:</h2>
       <div className="cards">
         <CardGroup>
-          <Card className="card" style={{ width: "18rem" }}>
+          <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src="https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png"
@@ -33,7 +33,7 @@ function Programming() {
             </Card.Body>
           </Card>
 
-          <Card className="card" style={{ width: "18rem" }}>
+          <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src="https://w7.pngwing.com/pngs/582/361/png-transparent-postgre-sql-logo-postgresql-relational-database-management-system-object-relational-database-database-blue-text-logo.png"
@@ -56,7 +56,7 @@ function Programming() {
             </Card.Body>
           </Card>
 
-          <Card className="card" style={{ width: "18rem" }}>
+          <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src="https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css.jpg"

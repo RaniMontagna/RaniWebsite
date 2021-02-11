@@ -10,10 +10,10 @@ function Games() {
     <div id="games" className="games">
       <div className="content">
         <div className="title">
-          <h1>Jogos</h1>
-          <h2>Meu hobby favorito</h2>
+          <h1 data-aos="fade-right">Jogos</h1>
+          <h2 data-aos="fade-left">Meu hobby favorito</h2>
         </div>
-        <p>
+        <p data-aos="fade">
           Não poderia fazer um website sobre mim sem falar sobre jogos, eles
           fazem parte de mim desde pequeno quando ganhei meu primeiro
           computador. Desde lá, sempre reservo um momento do meu dia para me
@@ -21,8 +21,8 @@ function Games() {
           divertido quando se joga com amigos então se você quiser pode me
           chamar.
         </p>
-        <h3>Meus favoritos:</h3>
-        <Carousel className="carousel">
+        <h3 data-aos="fade">Meus favoritos:</h3>
+        <Carousel data-aos="fade" className="carousel">
           <Carousel.Item>
             <img
               className="d-block w-100"

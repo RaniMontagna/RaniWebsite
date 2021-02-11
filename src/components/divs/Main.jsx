@@ -10,17 +10,12 @@ function Main() {
     <div className="main">
       <Image src={myPhoto} roundedCircle />
       <Typewriter
-        className="typewriter"
-        options={{
-          strings: [
-            "Olá! Esse sou eu, bem-vindos ao meu site.",
-            "Aqui você pode conhecer um pouco mais sobre mim e o que eu faço.",
-          ],
-          autoStart: true,
-          loop: true,
-          delay: 50,
-          pauseFor: 3000,
-          deleteSpeed: 20,
+        onInit={(typewriter) => {
+          typewriter
+            .changeDelay(50)
+            .typeString("Olá! Esse sou eu, bem-vindos ao meu site!")
+            .stop()
+            .start();
         }}
       />
     </div>
