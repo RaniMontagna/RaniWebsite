@@ -7,8 +7,7 @@
 }
 
 .cv div {
-    width: 50%;
-    display: inline;
+    width: 100%;
 }
 
 .cv h1 {
@@ -20,14 +19,26 @@
     font-size: 1.2em;
 }
 
-.cv h5 {
-    margin-top: 10px;
+.cv .progressBars {
+    margin-bottom: 20px;
 }
 
-.cv .button {
-    margin-top: 20px;
+.cv .btnCV {
+    border: 1px solid #1b96bb;
+    color: #1b96bb;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
+.cv .btnCV:link {
+    color: #1b96bb;
+}
+
+.cv .btnCV:hover {
+    color: white;
+    background-color: #1b96bb;
+}
 @media(max-width: 800px) {
     .cv h1 {
         font-size: 1.5em;

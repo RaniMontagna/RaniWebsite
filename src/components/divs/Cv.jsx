@@ -1,9 +1,9 @@
 import React from "react";
 import "./Cv.css";
 
-import ProgressBar from "@ramonak/react-progress-bar";
+import { Link } from "react-router-dom";
 
-import { Button } from "react-bootstrap";
+import ProgressBar from "@ramonak/react-progress-bar";
 
 function Cv() {
   return (
@@ -19,7 +19,7 @@ function Cv() {
           conhecimentos.
         </p>
       </div>
-      <div>
+      <div className="progressBars">
         <h5 data-aos="fade" data-aos-anchor-placement="top-bottom">
           ReactJS
         </h5>
@@ -37,14 +37,15 @@ function Cv() {
         </h5>
         <ProgressBar completed={100} bgcolor="#18ABBF" />
       </div>
-      <Button
+      <Link
         data-aos="fade-left"
-        data-aos-anchor-placement="top-bottom"
-        className="button"
-        variant="outline-info"
+        className="btnCV"
+        to="/curriculo.pdf"
+        target="_blank"
+        download="curriculo.pdf"
       >
         Baixar CV
-      </Button>{" "}
+      </Link>
     </div>
   );
 }
