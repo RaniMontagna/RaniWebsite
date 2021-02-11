@@ -10,8 +10,8 @@ function Games() {
     <div id="games" className="games">
       <div className="content">
         <div className="title">
-          <h1 data-aos="fade-right">Jogos</h1>
-          <h2 data-aos="fade-left">Meu hobby favorito</h2>
+          <h1 data-aos="fade-up">Jogos</h1>
+          <h2 data-aos="fade-down">Meu hobby favorito</h2>
         </div>
         <p data-aos="fade">
           Não poderia fazer um website sobre mim sem falar sobre jogos, eles

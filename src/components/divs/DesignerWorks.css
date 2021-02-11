@@ -1,0 +1,26 @@
+.designerWorks .content {
+    background-color: #202020;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    font-family: 'Lato';
+    text-align: center;
+}
+
+.designerWorks .content h1 {
+    font-weight: 400;
+}
+
+.designerWorks .content p {
+    font-weight: 300;
+}
+
+.row1 img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+}

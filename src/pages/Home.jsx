@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import Header from "../components/divs/Header";
 import Main from "../components/divs/Main";
 import About from "../components/divs/About";
+import Cv from "../components/divs/Cv";
+import DesignerWorks from "../components/divs/DesignerWorks";
 import Programming from "../components/divs/Programming";
 import Games from "../components/divs/Games";
 import Quote from "../components/divs/Quote";
@@ -20,6 +22,8 @@ function Home() {
       <Header />
       <Main />
       <About />
+      <Cv />
+      <DesignerWorks />
       <Programming />
       <Games />
       <Quote />

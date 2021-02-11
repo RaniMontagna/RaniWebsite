@@ -5,8 +5,8 @@ import "./Programming.css";
 function Programming() {
   return (
     <div id="programming" className="programming">
-      <h1 data-aos="fade-right">Programação</h1>
-      <h2 data-aos="fade-left">Minhas Linguagens Preferidas:</h2>
+      <h1 data-aos="zoom-in">Programação</h1>
+      <h2 data-aos="zoom-in">Minhas Linguagens Preferidas:</h2>
       <div className="cards">
         <CardGroup>
           <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
