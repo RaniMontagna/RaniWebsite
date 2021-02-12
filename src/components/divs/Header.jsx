@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="header">
       <div className="content">
-        <h1> Ranielli Montagna </h1>
+        <h1><a href="/">Ranielli Montagna</a></h1>
         <nav className="nav">
           <li><a href="#about">Sobre</a></li>
           <li>Contato</li>

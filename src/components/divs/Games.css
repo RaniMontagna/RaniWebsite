@@ -27,12 +27,12 @@
 }
 
 .title h2 {
-    font-size: 1em  ;
+    font-size: 1em;
     margin-top: 15px;
 }
 
 .content h3 {
-    color: #707070; 
+    color: #707070;
     font-size: 1.5em;
 }
 
@@ -40,8 +40,8 @@
     width: 50%;
 }
 
-@media(max-width: 800px){
-    .carousel{
+@media(max-width: 800px) {
+    .carousel {
         width: 90%;
     }
-   }
+}

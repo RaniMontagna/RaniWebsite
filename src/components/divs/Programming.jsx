@@ -12,7 +12,7 @@ function Programming() {
           <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png"
+              src="/images/programming/reactJS.jpg"
             />
             <Card.Body>
               <Card.Title>ReactJS</Card.Title>
@@ -36,7 +36,7 @@ function Programming() {
           <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://w7.pngwing.com/pngs/582/361/png-transparent-postgre-sql-logo-postgresql-relational-database-management-system-object-relational-database-database-blue-text-logo.png"
+              src="/images/programming/postgreSQL.jpg"
             />
             <Card.Body>
               <Card.Title>PostgreSQL</Card.Title>
@@ -59,7 +59,7 @@ function Programming() {
           <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css.jpg"
+              src="/images/programming/css.jpg"
             />
             <Card.Body>
               <Card.Title>CSS</Card.Title>

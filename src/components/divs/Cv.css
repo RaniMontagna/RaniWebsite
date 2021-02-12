@@ -39,6 +39,7 @@
     color: white;
     background-color: #1b96bb;
 }
+
 @media(max-width: 800px) {
     .cv h1 {
         font-size: 1.5em;
@@ -47,5 +48,40 @@
 
     .cv p {
         font-size: 1em;
+    }
+}
+
+.progress1 {
+    background: rgba(0, 0, 0, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 0px;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.progress-value1 {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #1b96bb;
+    height: 25px;
+    width: 0;
+}
+
+.progress-value1 span {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+
+@keyframes load {
+    0% {    
+        width: 0;
     }
 }
