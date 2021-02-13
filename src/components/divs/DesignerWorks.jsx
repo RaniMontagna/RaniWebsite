@@ -2,7 +2,7 @@ import React from "react";
 import "./DesignerWorks.css";
 
 import GnaDesigner from "../../images/design/GnaLogo.webp";
-import CopoBC from "../../images/design/Copo - BailaConmigo.webp";
+import CopoBC from "../../images/design/Copo-BailaConmigo.webp";
 import PerfilR6 from "../../images/design/perfilPhotoR6.webp";
 import LogoAlpha from "../../images/design/logo_alphafragrance.webp";
 
