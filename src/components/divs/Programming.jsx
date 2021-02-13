@@ -12,7 +12,7 @@ function Programming() {
           <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="/images/programming/reactJS.jpg"
+              src="/images/programming/reactJS.webp"
             />
             <Card.Body>
               <Card.Title>ReactJS</Card.Title>
@@ -36,7 +36,7 @@ function Programming() {
           <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="/images/programming/postgreSQL.jpg"
+              src="/images/programming/postgreSQL.webp"
             />
             <Card.Body>
               <Card.Title>PostgreSQL</Card.Title>
@@ -59,7 +59,7 @@ function Programming() {
           <Card data-aos="fade-up" className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="/images/programming/css.jpg"
+              src="/images/programming/css.webp"
             />
             <Card.Body>
               <Card.Title>CSS</Card.Title>

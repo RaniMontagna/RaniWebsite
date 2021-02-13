@@ -1,10 +1,10 @@
 import React from "react";
 import "./DesignerWorks.css";
 
-import GnaDesigner from "../../images/design/GnaLogo.jpg";
-import CopoBC from "../../images/design/Copo - BailaConmigo.jpg";
-import PerfilR6 from "../../images/design/perfilPhotoR6.jpg";
-import LogoAlpha from "../../images/design/logo_alphafragrance.jpg";
+import GnaDesigner from "../../images/design/GnaLogo.webp";
+import CopoBC from "../../images/design/Copo - BailaConmigo.webp";
+import PerfilR6 from "../../images/design/perfilPhotoR6.webp";
+import LogoAlpha from "../../images/design/logo_alphafragrance.webp";
 
 import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
 

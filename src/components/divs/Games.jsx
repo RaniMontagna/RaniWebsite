@@ -26,7 +26,7 @@ function Games() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://i.pinimg.com/originals/b0/b7/1f/b0b71f40a83a92a700a82f5907117f2b.jpg"
+              src="/images/games/RainbowSix.webp"
               alt="Rainbow Six Siege"
             />
             <Carousel.Caption>
@@ -36,7 +36,7 @@ function Games() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://wallpaperaccess.com/full/1335864.jpg"
+              src="/images/games/RocketLeague.webp"
               alt="Rocket League"
             />
 
@@ -47,7 +47,7 @@ function Games() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://dmarket.com/blog/best-csgo-wallpapers/tercsgo_huc01d3a403c050d47715d6aeed15b344f_839613_1920x1080_resize_q75_lanczos.jpg"
+              src="/images/games/CsGo.webp"
               alt="Counter-Strike: Global Offensive"
             />
 
