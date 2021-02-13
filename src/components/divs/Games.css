@@ -36,12 +36,23 @@
     font-size: 1.5em;
 }
 
-.carousel {
-    width: 50%;
+.carouselDiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-root {
+    width: 60%;
+    text-align: center;
+}
+
+.carousel-root img {
+    border-radius: 20px;
 }
 
 @media(max-width: 800px) {
-    .carousel {
+    .carousel-root {
         width: 90%;
     }
 }

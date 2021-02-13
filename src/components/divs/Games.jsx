@@ -1,11 +1,13 @@
 import React from "react";
 import "./Games.css";
 
-import { Carousel } from "react-bootstrap";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
 
 function Games() {
+
   return (
     <div id="games" className="games">
       <div className="content">
@@ -22,40 +24,26 @@ function Games() {
           chamar.
         </p>
         <h3 data-aos="fade">Meus favoritos:</h3>
-        <Carousel data-aos="fade" className="carousel">
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/images/games/RainbowSix.webp"
-              alt="Rainbow Six Siege"
-            />
-            <Carousel.Caption>
-              <h2>Rainbow Six Siege</h2>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/images/games/RocketLeague.webp"
-              alt="Rocket League"
-            />
-
-            <Carousel.Caption>
-              <h2>Rocket League</h2>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/images/games/CsGo.webp"
-              alt="Counter-Strike: Global Offensive"
-            />
-
-            <Carousel.Caption>
-              <h2>Counter-Strike: Global Offensive</h2>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+        <div className="carouselDiv">
+          <Carousel autoplay showThumbs={false} showStatus={false}>
+            <div>
+              <img src="/images/games/RainbowSix.webp" alt="RainbowSix" />
+              <p className="legend">Rainbow Six Siege</p>
+            </div>
+            <div>
+              <img src="/images/games/RocketLeague.webp" alt="RocketLeague" />
+              <p className="legend">Rocket League</p>
+            </div>
+            <div>
+              <img src="/images/games/CsGo.webp" alt="CsGo" />
+              <p className="legend">Counter-Strike: Global Offensive</p>
+            </div>
+            <div>
+              <img src="/images/games/KingdomTwoCrowns.webp" alt="KingdomTwoCrowns" />
+              <p className="legend">Kingdom Two Crowns</p>
+            </div>
+          </Carousel>
+        </div>
       </div>
       <SvgDivLayoutBottom />
     </div>
