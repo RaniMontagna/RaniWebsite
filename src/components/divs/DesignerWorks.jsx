@@ -10,7 +10,7 @@ import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
 
 function DesignerWorks() {
   return (
-    <div className="designerWorks">
+    <div className="designerWorks" id="design">
       <div className="content">
         <h1> Alguns trabalhos de design feitos por mim: </h1>
         <p> Faço desde simples logos até mesmo cartazes de festas</p>
