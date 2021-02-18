@@ -12,8 +12,8 @@ function DesignerWorks() {
   return (
     <div className="designerWorks" id="design">
       <div className="content">
-        <h1> Alguns trabalhos de design feitos por mim: </h1>
-        <p> Faço desde simples logos até mesmo cartazes de festas</p>
+        <h1 data-aos="fade-down"> Alguns trabalhos de design feitos por mim: </h1>
+        <p data-aos="fade-up"> Faço desde simples logos até mesmo cartazes de festas</p>
 
         <div className="row1">
           <img data-aos="fade-up" src={GnaDesigner} alt="GnaLogo" />
