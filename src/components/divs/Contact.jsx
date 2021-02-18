@@ -15,6 +15,7 @@ function Contact() {
           <form className="formulario">
             <input
               data-aos="fade"
+              data-aos-anchor-placement="center-bottom"
               type="text"
               placeholder="Seu nome"
               id="name"
@@ -22,6 +23,7 @@ function Contact() {
             />
             <input
               data-aos="fade"
+              data-aos-anchor-placement="center-bottom"
               type="text"
               placeholder="Seu email"
               id="email"
@@ -29,6 +31,7 @@ function Contact() {
             />
             <textarea
               data-aos="fade"
+              data-aos-anchor-placement="center-bottom"
               rows="10"
               cols="30"
               placeholder="Sua mensagem"
@@ -36,19 +39,19 @@ function Contact() {
               className="message"
             />
 
-            <button data-aos="fade-left" type="submit" className="submit">
+            <button data-aos="fade-left" data-aos-anchor-placement="center-bottom" type="submit" className="submit">
               Enviar Mensagem
             </button>
           </form>
         </div>
         <div className="contactDetails">
-          <h2 data-aos="fade-right"> Meus detalhes de contato:</h2>
-          <h6 data-aos="fade-down">EMAIL</h6>
-          <p data-aos="fade-down">raniellimontagna@hotmail.com</p>
-          <h6 data-aos="fade-down">TELEFONE</h6>
-          <p data-aos="fade-down">+55 54 99979-0871</p>
-          <h6 data-aos="fade-down">ENDEREÇO</h6>
-          <p data-aos="fade-down">Paraí, RS - Linha Navegantes, 2035</p>
+          <h2 data-aos="fade-right" data-aos-anchor-placement="center-bottom"> Meus detalhes de contato:</h2>
+          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">EMAIL</h6>
+          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom">raniellimontagna@hotmail.com</p>
+          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">TELEFONE</h6>
+          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom">+55 54 99979-0871</p>
+          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">ENDEREÇO</h6>
+          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom" >Paraí, RS - Linha Navegantes, 2035</p>
         </div>
       </div>
     </div>
