@@ -58,7 +58,7 @@
     cursor: pointer;
 }
 
-.dropdown { 
+.dropdown {
     margin-top: 15px;
     display: none;
 }
@@ -70,6 +70,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-bottom: -240px;
 }
 
 .dropdown-content a {
@@ -104,11 +105,11 @@
         font-size: 3em;
     }
 
-    .intro .nav .nav     {
+    .intro .nav .nav {
         display: none;
     }
+
     .dropdown {
-        position: relative;
         display: inline-block;
     }
 }
