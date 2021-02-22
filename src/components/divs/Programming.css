@@ -10,7 +10,7 @@
 
 .cards {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     text-decoration: none;
 }
 
@@ -20,25 +20,39 @@
 
 @media (max-width: 1000px) {
     .cards {
-        flex-direction: column; 
+        flex-direction: column;
     }
+
     .card {
         margin-bottom: 20px;
+    }
+
+    .programming h1 {
+        font-size: 2em;
+    }
+
+    .programming h2 {
+        width: 80%;
+        font-size: 1.5em;
+        text-align: center;
     }
 }
 
 .programming h1 {
-    font-weight: 700;
-    color: #3F3F3F;
-    font-size: 2em;
+    font-weight: 400;
     margin-top: 20px;
 }
 
 .programming h2 {
-    color: #707070; 
+    color: #707070;
+    font-weight: 300;
     font-size: 1.5em;
     margin-top: -10px;
     margin-bottom: 20px;
+}
+
+.programming h3 {
+    font-family: 'Lato';
 }
 
 .programming {

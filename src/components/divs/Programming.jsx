@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, Card, CardGroup } from "react-bootstrap";
 import ImgMediaCard from "../layout/Card";
 import "./Programming.css";
 
@@ -7,7 +6,7 @@ function Programming() {
   return (
     <div id="programming" className="programming">
       <h1 data-aos="zoom-in">Programação</h1>
-      <h2 data-aos="zoom-in">Minhas Linguagens Preferidas:</h2>
+      <h2 data-aos="zoom-in">Estou focado em aprender nesse momento o frontend, principalmente:</h2>
       <div className="cards">
         <ImgMediaCard
           image="/images/programming/reactJS.webp"
