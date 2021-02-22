@@ -8,8 +8,23 @@
     font-family: 'Lato';
 }
 
-.card {
-    margin: 0px 10px;
+.cards {
+    display: flex;
+    flex-direction: row; 
+    text-decoration: none;
+}
+
+.card:link {
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .cards {
+        flex-direction: column; 
+    }
+    .card {
+        margin-bottom: 20px;
+    }
 }
 
 .programming h1 {
