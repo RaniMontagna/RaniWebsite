@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Lato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
     width: 70%;
     margin: auto;

@@ -5,7 +5,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    font-family: 'Lato';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cards {
@@ -52,7 +52,7 @@
 }
 
 .programming h3 {
-    font-family: 'Lato';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .programming {
