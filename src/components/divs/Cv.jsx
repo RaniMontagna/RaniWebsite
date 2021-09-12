@@ -23,8 +23,8 @@ function Cv() {
         </h5>
 
         <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="progress1">
-          <div className="progress-value1" style={{ width: "50%" }}>
-            <span>50%</span>
+          <div className="progress-value1" style={{ width: "70%" }}>
+            <span>70%</span>
           </div>
         </div>
 
@@ -43,8 +43,8 @@ function Cv() {
         </h5>
 
         <div data-aos="fade" data-aos-anchor-placement="top-bottom" className="progress1">
-          <div className="progress-value1" style={{ width: "70%" }}>
-            <span>70%</span>
+          <div className="progress-value1" style={{ width: "50%" }}>
+            <span>50%</span>
           </div>
         </div>
 

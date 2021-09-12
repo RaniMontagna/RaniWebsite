@@ -6,7 +6,7 @@ function Programming() {
   return (
     <div id="programming" className="programming">
       <h1 data-aos="zoom-in">Programação</h1>
-      <h2 data-aos="zoom-in">Estou focado em aprender nesse momento o frontend, principalmente:</h2>
+      <h2 data-aos="zoom-in">Foco dos meus estudos e aprendizagem:</h2>
       <div className="cards">
         <ImgMediaCard
           image="/images/programming/reactJS.webp"
@@ -19,22 +19,20 @@ function Programming() {
           link="https://pt-br.reactjs.org"
         />
         <ImgMediaCard
-          image="/images/programming/postgreSQL.webp"
-          title="PostgreSQL"
-          text="PostgreSQL é um sistema de banco de dados poderoso e em código
-          aberto para Windows, Mac e Linux. Ele possui mais de 15 anos de
-          desenvolvimento ativo e uma arquitetura que ganhou uma forte
-          reputação devido a sua estabilidade e integridade de dados."
-          link="https://www.postgresql.org"
+          image="/images/programming/flutter.webp"
+          title="Flutter"
+          text="Flutter é um UI toolkit do Google para criar aplicativos bonitos e nativos compilados 
+          para dispositivos móveis, Web e desktop a partir de uma única base de código. Flutter possui uma porção 
+          de widgets que nos permite criar o layout do app muito facilmente."
+          link="https://flutter.dev/"
         />
         <ImgMediaCard
-          image="/images/programming/css.webp"
-          title="CSS"
-          text="O CSS é uma linguagem de folha de estilo composta por “camadas”,
-          criado com o propósito de estilizar as páginas HTML, ou seja,
-          definir a aparência das páginas, para deixá-las visualmente mais
-          bonitas e agradáveis, podendo alterar a fonte, cor, layout e muito mais."
-          link="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+          image="/images/programming/golang.webp"
+          title="Go"
+          text="O Golang é uma linguagem de programação de código aberto criada pelo Google, com foco principal na produtividade.
+          Sendo uma linguagem compilada, altamente escalável e que se autodefine como simplista, tendo em vista 
+          que facilita a criação de softwares simples."
+          link="https://golang.org/"
         />
       </div>
     </div>
