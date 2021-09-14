@@ -17,6 +17,7 @@ function Programming() {
           desenvolvedores individuais. É utilizado nos sites da Netflix,
           Imgur, Airbnb, Walmart e outros."
           link="https://pt-br.reactjs.org"
+          rel="noopener"
         />
         <ImgMediaCard
           image="/images/programming/flutter.webp"
@@ -25,6 +26,7 @@ function Programming() {
           para dispositivos móveis, Web e desktop a partir de uma única base de código. Flutter possui uma porção 
           de widgets que nos permite criar o layout do app muito facilmente."
           link="https://flutter.dev/"
+          rel="noopener"
         />
         <ImgMediaCard
           image="/images/programming/golang.webp"
@@ -33,6 +35,7 @@ function Programming() {
           Sendo uma linguagem compilada, altamente escalável e que se autodefine como simplista, tendo em vista 
           que facilita a criação de softwares simples."
           link="https://golang.org/"
+          rel="noopener"
         />
       </div>
     </div>

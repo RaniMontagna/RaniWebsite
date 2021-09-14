@@ -2,10 +2,30 @@ import React from "react";
 import "./About.css";
 
 import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
+import Perfil from "../../../src/images/myPhoto.jpg";
 
 function About() {
   return (
     <div id="about" className="about">
+      <div className="contentTwo">
+        <div data-aos="fade-down">
+          <img src={Perfil} alt={Perfil} />
+        </div>
+        <div data-aos="fade-down">
+          <h1>PROGRAMADOR FRONT-END</h1>
+          <h2>
+            <a
+              style={{ textDecoration: "none", color: "#1b96bb" }}
+              target="_blank"
+              rel="noreferrer"
+              href="https://pratio.com.br/"
+            >
+              PRATIO
+            </a>
+            - SB SISTEMAS
+          </h2>
+        </div>
+      </div>
       <div className="content">
         <p data-aos="fade-up">
           Me chamo <strong>Ranielli Montagna</strong>, mais conhecido por Rani,

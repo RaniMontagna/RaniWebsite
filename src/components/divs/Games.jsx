@@ -1,13 +1,12 @@
 import React from "react";
 import "./Games.css";
 
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
 
 function Games() {
-
   return (
     <div id="games" className="games">
       <div className="content">
@@ -24,25 +23,29 @@ function Games() {
           chamar.
         </p>
         <h3 data-aos="fade">Meus favoritos:</h3>
-        <div className="carouselDiv">
-          <Carousel autoplay showThumbs={false} showStatus={false}>
-            <div>
-              <img src="/images/games/RainbowSix.webp" alt="RainbowSix" />
-              <p className="legend">Rainbow Six Siege</p>
-            </div>
-            <div>
-              <img src="/images/games/RocketLeague.webp" alt="RocketLeague" />
-              <p className="legend">Rocket League</p>
-            </div>
-            <div>
-              <img src="/images/games/CsGo.webp" alt="CsGo" />
-              <p className="legend">Counter-Strike: Global Offensive</p>
-            </div>
-            <div>
-              <img src="/images/games/KingdomTwoCrowns.webp" alt="KingdomTwoCrowns" />
-              <p className="legend">Kingdom Two Crowns</p>
-            </div>
-          </Carousel>
+        <div className="carouselDiv" style={{ maxWidth: "1000px" }}>
+          <ImageGallery
+            showFullscreenButton={false}
+            showPlayButton={false}
+            showThumbnails={false}
+            items={[
+              {
+                original: "/images/games/RainbowSix.webp",
+                thumbnail: "/images/games/RainbowSix.webp",
+                description: "Rainbow Six Siege",
+              },
+              {
+                original: "/images/games/RocketLeague.webp",
+                thumbnail: "/images/games/RocketLeague.webp",
+                description: "Rocket League",
+              },
+              {
+                original: "/images/games/CsGo.webp",
+                thumbnail: "/images/games/CsGo.webp",
+                description: "Counter-Strike: Global Offensive",
+              },
+            ]}
+          />
         </div>
       </div>
       <SvgDivLayoutBottom />
