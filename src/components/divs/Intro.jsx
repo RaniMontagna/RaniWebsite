@@ -2,6 +2,7 @@ import React from "react";
 import "./Intro.css";
 
 import Typewriter from "typewriter-effect";
+import logo from "../../images/logo/logoWhite.png";
 
 function Intro() {
   return (

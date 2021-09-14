@@ -20,7 +20,12 @@ export default function ImgMediaCard(props) {
 
   return (
     <Card className={classes.root} data-aos="fade-up">
-      <CardActionArea href={props.link} target="_blank" className="card">
+      <CardActionArea
+        href={props.link}
+        target="_blank"
+        className="card"
+        rel="noreferrer"
+      >
         <CardMedia
           component="img"
           alt={props.title}
