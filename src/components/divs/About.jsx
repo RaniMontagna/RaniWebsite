@@ -21,7 +21,7 @@ function About() {
               href="https://pratio.com.br/"
             >
               PRATIO
-            </a>
+            </a>{" "}
             - SB SISTEMAS
           </h2>
         </div>
