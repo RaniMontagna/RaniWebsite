@@ -20,6 +20,7 @@ function Contact() {
               placeholder="Seu nome"
               id="name"
               className="name"
+              required={true}
             />
             <input
               data-aos="fade"
@@ -28,6 +29,7 @@ function Contact() {
               placeholder="Seu email"
               id="email"
               className="email"
+              required={true}
             />
             <textarea
               data-aos="fade"
@@ -37,21 +39,42 @@ function Contact() {
               placeholder="Sua mensagem"
               id="message"
               className="message"
+              required="true"
             />
 
-            <button data-aos="fade-left" data-aos-anchor-placement="center-bottom" type="submit" className="submit">
+            <button
+              data-aos="fade-left"
+              data-aos-anchor-placement="center-bottom"
+              type="submit"
+              className="submit"
+            >
               Enviar Mensagem
             </button>
           </form>
         </div>
         <div className="contactDetails">
-          <h2 data-aos="fade-right" data-aos-anchor-placement="center-bottom"> Meus detalhes de contato:</h2>
-          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">EMAIL</h6>
-          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom">raniellimontagna@hotmail.com</p>
-          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">TELEFONE</h6>
-          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom">+55 54 99979-0871</p>
-          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">ENDEREÇO</h6>
-          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom" >Paraí, RS - Linha Navegantes, 2035</p>
+          <h2 data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+            {" "}
+            Meus detalhes de contato:
+          </h2>
+          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+            EMAIL
+          </h6>
+          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+            raniellimontagna@hotmail.com
+          </p>
+          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+            TELEFONE
+          </h6>
+          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+            +55 54 99979-0871
+          </p>
+          <h6 data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+            ENDEREÇO
+          </h6>
+          <p data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+            Paraí, RS - Linha Navegantes, 2035
+          </p>
         </div>
       </div>
     </div>
