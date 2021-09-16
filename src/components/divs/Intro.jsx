@@ -38,7 +38,7 @@ function Intro() {
         </div>
       </div>
       <div className="main">
-        <h2>
+        <h1>
           <Typewriter
             options={{
               cursor: "",
@@ -51,8 +51,8 @@ function Intro() {
                 .start();
             }}
           />
-        </h2>
-        <h1>
+        </h1>
+        <h2>
           <Typewriter
             options={{
               cursor: "",
@@ -66,7 +66,7 @@ function Intro() {
                 .start();
             }}
           />
-        </h1>
+        </h2>
         <h3>
           <Typewriter
             options={{

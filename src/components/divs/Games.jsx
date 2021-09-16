@@ -33,16 +33,22 @@ function Games() {
                 original: "/images/games/RainbowSix.webp",
                 thumbnail: "/images/games/RainbowSix.webp",
                 description: "Rainbow Six Siege",
+                originalHeight: 500,
+                originalWidth: 1280,
               },
               {
                 original: "/images/games/RocketLeague.webp",
                 thumbnail: "/images/games/RocketLeague.webp",
                 description: "Rocket League",
+                originalHeight: 500,
+                originalWidth: 1280,
               },
               {
                 original: "/images/games/CsGo.webp",
                 thumbnail: "/images/games/CsGo.webp",
                 description: "Counter-Strike: Global Offensive",
+                originalHeight: 500,
+                originalWidth: 1280,
               },
             ]}
           />
