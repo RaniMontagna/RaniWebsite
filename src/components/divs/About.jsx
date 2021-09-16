@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 
-import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
 import Perfil from "../../../src/images/myPhoto.jpg";
 
 function About() {
@@ -43,7 +42,6 @@ function About() {
           sou programador front-end!
         </p>
       </div>
-      <SvgDivLayoutBottom />
     </div>
   );
 }

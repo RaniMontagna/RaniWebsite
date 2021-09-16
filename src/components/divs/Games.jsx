@@ -4,8 +4,6 @@ import "./Games.css";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
-
 function Games() {
   return (
     <div id="games" className="games">
@@ -54,7 +52,6 @@ function Games() {
           />
         </div>
       </div>
-      <SvgDivLayoutBottom />
     </div>
   );
 }

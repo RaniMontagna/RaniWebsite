@@ -6,8 +6,6 @@ import CopoBC from "../../images/design/Copo-BailaConmigo.webp";
 import PerfilR6 from "../../images/design/perfilPhotoR6.webp";
 import LogoAlpha from "../../images/design/logo_alphafragrance.webp";
 
-import SvgDivLayoutBottom from "../layout/svgDivLayoutBottom";
-
 function DesignerWorks() {
   return (
     <div className="designerWorks" id="design">
@@ -44,7 +42,6 @@ function DesignerWorks() {
           />
         </div>
       </div>
-      <SvgDivLayoutBottom />
     </div>
   );
 }
